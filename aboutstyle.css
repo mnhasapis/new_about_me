@@ -1,0 +1,49 @@
+
+
+.navbar-default{
+	background-color: #b3ffff;
+	opacity: 0.6;
+    filter: alpha(opacity=60)
+    color: black;
+	} 
+/*video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(videst.jpg) no-repeat;
+    background-size: cover; 
+} */
+
+body{
+
+    background: url(creepytree.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 32 px;
+    color:white;
+
+
+}
+
+html{
+
+    height:100%;
+}
+
+#content{
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.9),
+                  0px 8px 13px rgba(0,0,0,0.3),
+                  0px 18px 23px rgba(0,0,0,0.3);
+    }
